@@ -1,0 +1,68 @@
+.h2{
+    color: rgb(163, 21, 97);
+}
+body{
+    background-color: rgb(185, 185, 185);
+}
+.despesas{
+    background-color: rgb(205, 112, 140);
+}
+.salario{
+    background-color:rgb(205, 112, 140);
+}
+#master{
+     width: 80%;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    width: 250px;
+    padding: 7px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #777;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    background-color:rgb(163, 21, 97);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.salario,
+.despesas {
+    background: rgb(205, 112, 140);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+ul {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#resumo {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgb(205, 112, 140);
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 350px;
+    font-size: 18px;
+}
